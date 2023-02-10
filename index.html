@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>accessibility demo</title>
+</head>
+<body>
+    <h1>Normal Accessibility Test</h1>
+    <div id="navbar">
+        <a href="javascript:void(0)" tabindex="1">Tutorials</a>
+        <a href="javascript:void(0)" tabindex="2">References</a>
+        <a href="javascript:void(0)" tabindex="3">Excercise</a>
+        <a href="javascript:void(0)" tabindex="4">Videos</a>
+        <a href="javascript:void(0)" tabindex="5">New</a>
+        <a href="javascript:void(0)" tabindex="6">Menu</a>
+    </div>
+    <a href="javascript:void(0)" tabindex="7">Log in</a>
+    <div id="course">
+        <a href="https://courses.w3schools.com" tabindex="8">Paid Courses</a>
+        <a href="https://www.w3schools.com/spaces" tabindex="9">New</a>
+    </div>
+    <button accesskey="o" id="success" aria-label="ok button" tabindex="10"><u>O</u>k</button>
+    <button accesskey="c" id="cancel" aria-label="cancel button" tabindex="11"><u>C</u>ancel</button>
+</body>
+</html>
